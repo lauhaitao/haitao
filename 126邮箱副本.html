@@ -1,0 +1,257 @@
+aa
+
+
+aaa
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- bb -->
+	<!-- cc -->
+<meta charset="UTF-8">
+<title>126邮箱</title>
+<style type="text/css">
+*{margin: 0px;padding:0px;}
+html,body{height: 100%;}
+img{border:0px;}
+li{list-style: none;}
+input:focus{outline: none;}
+body{/*font-family: "微软雅黑";*/font-size: 100%;}
+/*123456*/
+.top_wrap,.middle{width: 680px;margin: 0 auto;}
+.top_wrap{overflow: hidden;}
+.top{width: 100%;background-color: rgba(0,0,0,0.5);position: fixed;top: 0;left: 0;}
+.top_logo{float:left;padding:9px 0px 6px;opacity: 0.6;}
+.top_nav{float: right; padding-top: 16px; line-height:12px;}
+.top_nav a{font-size: 12px;color:#6f8b99;text-decoration: none;margin-left: 17px;}
+.top_nav a:hover{text-decoration: underline;}
+.wrap{width: 100%;height: 100%;background:#1691d7 url('images/all4.jpg') center center no-repeat;}
+.middle{padding-top:94px;}
+.m_title{ height: 26px;background:url('images/logo_v2.png') 0px -63px no-repeat;}
+.content{overflow: hidden;position:relative; margin-top: 25px;}
+#triangle{position: absolute; top:30px;left:206px;z-index: 5; width: 16px;height: 24px;background:url('images/arr.png') no-repeat; -webkit-transition: all .3s;}
+.mail{width: 220px;float: left;}
+.mail li{width: 220px;height: 85px;border-bottom: solid 1px #ccc;opacity: 0.5;background-color: #fff; cursor: pointer;-webkit-transition: all 0.3s;-o-transition: all 0.3s;transition: all 0.3s;}
+.mail li:hover{opacity: 0.7;}
+.mail li.op1{opacity: 1;}
+.mail li div{width: 130px;height: 28px;margin:0 auto;position: relative; top: 27px;
+	background-repeat: no-repeat;background-image: url('images/logo_v2.png');}
+.mail163{background-position: -1px -1px;}
+.mail126{background-position: -144px -1px;}
+.mailYeah{background-position: -1px -33px;}
+.mailSJ163{background-position: -144px -33px;}
+
+.login_wrap{width: 350px;height: 286px;float: left;background-color: #fff;padding: 30px 55px 25px 55px;
+	border:solid 1px #bec3c7;box-shadow:-2px 0 2px #ccc;position:relative;z-index: 2;}
+.login_title{width: 166px;height: 20px; background:url('images/bg_v3.png') -1px -1px no-repeat;}
+.mail_login{overflow: hidden;height: 344px;}
+.login_form{position:relative;}
+.username,.userpwd{width: 228px;height: 21px;border:solid 1px #b8c4d0;border-radius: 5px;
+	font-size: 16px;color: #91a5be; line-height: 21px;padding: 13px 105px 12px 5px;
+	background-color: #ecf5fa;margin-top: 26px;box-shadow:0px 0px 1px 1px #d9e3ed inset; }
+.mailPos{width: 105px;height: 46px;line-height: 46px; text-align: center;font-size: 14px;font-weight: bold; color: #5E6F88;background-color: #F7FBFD;border-left:solid 1px #E0E9ED; position: absolute;
+	top: 27px;right: 11px; border-top-right-radius: 5px; border-bottom-right-radius: 5px;}
+.login_btn{width: 100px;height: 38px;border:solid 1px #6699cc; border-radius: 2px;background-color: #4b91d8;font-size: 16px;line-height: 38px;color: #fff;position: absolute;top:105px; right: 14px;cursor: pointer;}
+.login_btn:hover{background-color: #2374b3; border-color: #3a84cf;}
+.login_msg{overflow: hidden; margin-top: 16px;}
+.login_msg div{width: 33.33%; float: left; color: #7A8698;font-size: 12px;line-height: normal;}
+div.msg_forget{float: right; text-align: right;}
+.banben_msg{ margin-top: 16px; border-top: solid 1px #b8c4d0; overflow: hidden; padding-top: 11px;}
+.banben_msg div{font-size: 12px;}
+.banben{float: left; color: #7A8698;}
+.sign{float: right;color: #217dd9;}
+.login_ft{overflow: hidden;margin-top: 16px;}
+.lft_img{width: 256px;height: 32px;background:url('images/mailapp_logo.png') no-repeat;display: inline-block;}
+.lft_btn{display: inline-block;width: 66px;height: 20px;font-size: 12px;line-height: 20px;text-align: center;
+	background: #f5fafe;color: #778296;border:solid 1px #cfd7e2; text-decoration: none; position: relative;
+	top: -15px; left: 16px;}
+.m126 .login_title{background-position: -177px -1px;}
+.msj .login_title{background-position: -1px -33px; }
+.mYeah .login_title{background-position: -177px -34px;width: 180px;}
+.m126 .username,.m126 .userpwd{border-color:#b5cdaa;color: #85a28b;}
+.mYeah .username,.mYeah .userpwd{border-color:#b0b0b0;color: #898989;}
+.msj .username,.msj .userpwd{border-color:#93afc6;color: #93afc6;}
+.m126 .mailPos{color: #4c8057;background-color: #f9fbf7;}
+.mYeah .mailPos{color: #707070;background-color: #f9f9f9;}
+.msj .mailPos{color: #4c8057;background-color: #f9fbf7;}
+.m126 .login_btn{background-color: #249c3a;border-color: #40a454;}
+.m126 .login_btn:hover{background-color: #40a454; border-color: #2b9741;}
+.mYeah .login_btn{background-color: #ce171c;border-color: #b41116;}
+.mYeah .login_btn:hover{background-color: #c71015; border-color: #b41116;}
+.msj .login_btn{background-color: #0e62a5;border-color: #1c6095;}
+.msj .login_btn:hover{background-color: #206aa5; border-color: #1c6095;}
+</style>
+
+<script type="text/javascript">
+window.onload = function (){
+	var oMailBtn = document.getElementById("mail").getElementsByTagName("li");
+	var oMailCon = document.getElementById("mailLogin").getElementsByTagName("li");
+	var oArr = document.getElementById("triangle");
+	oArr.style.top = "30px";
+	for(var i=0;i<oMailBtn.length;i++){
+		oMailBtn[i].index = i;
+		oMailCon[i].style.display = "none";
+		oMailBtn[i].onclick = function (){
+			for(var i=0;i<oMailBtn.length;i++){
+				oMailBtn[i].className = "";
+				oMailCon[i].style.display = "none";
+			}
+			oMailBtn[this.index].className = "op1";
+			oMailCon[this.index].style.display = "block";
+			oArr.style.top = 30 + 85*this.index+"px";
+		}
+	}
+	oMailCon[0].style.display = "block";
+}
+</script>
+</head>
+<body>
+	<div class="top">
+		<div class="top_wrap">
+			<div class="top_logo"><img src="images/ntes_logo.png" alt=""></div>
+			<div class="top_nav">
+				<a href="javascript:void(0);">收费邮</a>
+				<a href="javascript:void(0);">企业邮箱</a>
+				<a href="javascript:void(0);">国外用户登录</a>
+				<a href="javascript:void(0);">学生用户登录</a>
+				<a href="javascript:void(0);">手机版</a>
+				<a href="javascript:void(0);">帮助</a>
+			</div>
+		</div>
+	</div>
+	<div class="wrap">
+		<div class="middle">
+			<div class="m_title"></div>
+			<div class="content">
+				<div id="triangle"></div>
+				<div class="mail">
+					<ul id="mail">
+						<li class="op1"><div class="mail163"></div></li>
+						<li><div class="mail126"></div></li>
+						<li><div class="mailYeah"></div></li>
+						<li><div class="mailSJ163"</div></li>
+					</ul>
+				</div>
+				<div class="mail_login">
+					<ul id="mailLogin">
+						<li><div class="login_wrap m163">
+							<div class="login_title"></div>
+							<div class="login_form">
+								<form action="">
+									<div>
+										<input class="username" type="text" placeholder="账号或邮箱" value=""/>
+										<div class="mailPos">@163.com</div>
+									</div>
+									<div>
+										<input class="userpwd" type="text" placeholder="密码" value="">
+										<input class="login_btn" type="button" value="登录">
+									</div>
+									<div class="login_msg">
+										<div><input type="checkbox" checked>记住账号</div>
+										<div><input type="checkbox" checked>SSL安全登录</div>
+										<div class="msg_forget">忘记密码？</div>
+									</div>
+								</form>
+							</div>		
+							<div class="banben_msg">
+								<div class="banben">邮箱版本：默认版本</div>
+								<div class="sign">注册网易免费邮</div>
+							</div>
+							<div class="login_ft">
+								<a href="javascript:void(0)" class="lft_img"></a>
+								<a href="javascript:void(0)" class="lft_btn">立即下载</a>
+							</div>
+						</div></li>
+						<li><div class="login_wrap m126">
+							<div class="login_title"></div>
+							<div class="login_form">
+								<form action="">
+									<div>
+										<input class="username" type="text" placeholder="账号或邮箱" value=""/>
+										<div class="mailPos">@126.com</div>
+									</div>
+									<div>
+										<input class="userpwd" type="text" placeholder="密码" value="">
+										<input class="login_btn" type="button" value="登录">
+									</div>
+									<div class="login_msg">
+										<div><input type="checkbox" checked>记住账号</div>
+										<div><input type="checkbox" checked>SSL安全登录</div>
+										<div class="msg_forget">忘记密码？</div>
+									</div>
+								</form>
+							</div>		
+							<div class="banben_msg">
+								<div class="banben">邮箱版本：默认版本</div>
+								<div class="sign">注册网易免费邮</div>
+							</div>
+							<div class="login_ft">
+								<a href="javascript:void(0)" class="lft_img"></a>
+								<a href="javascript:void(0)" class="lft_btn">立即下载</a>
+							</div>
+						</div></li>
+						<li><div class="login_wrap mYeah">
+							<div class="login_title"></div>
+							<div class="login_form">
+								<form action="">
+									<div>
+										<input class="username" type="text" placeholder="账号或邮箱" value=""/>
+										<div class="mailPos">@yeah.net</div>
+									</div>
+									<div>
+										<input class="userpwd" type="text" placeholder="密码" value="">
+										<input class="login_btn" type="button" value="登录">
+									</div>
+									<div class="login_msg">
+										<div><input type="checkbox" checked>记住账号</div>
+										<div><input type="checkbox" checked>SSL安全登录</div>
+										<div class="msg_forget">忘记密码？</div>
+									</div>
+								</form>
+							</div>		
+							<div class="banben_msg">
+								<div class="banben">邮箱版本：默认版本</div>
+								<div class="sign">注册网易免费邮</div>
+							</div>
+							<div class="login_ft">
+								<a href="javascript:void(0)" class="lft_img"></a>
+								<a href="javascript:void(0)" class="lft_btn">立即下载</a>
+							</div>
+						</div></li>
+						<li><div class="login_wrap msj">
+							<div class="login_title"></div>
+							<div class="login_form">
+								<form action="">
+									<div>
+										<input class="username" type="text" placeholder="账号或邮箱" value=""/>
+										<div class="mailPos">@163.com</div>
+									</div>
+									<div>
+										<input class="userpwd" type="text" placeholder="密码" value="">
+										<input class="login_btn" type="button" value="登录">
+									</div>
+									<div class="login_msg">
+										<div><input type="checkbox" checked>记住账号</div>
+										<div><input type="checkbox" checked>SSL安全登录</div>
+										<div class="msg_forget">忘记密码？</div>
+									</div>
+								</form>
+							</div>		
+							<div class="banben_msg">
+								<div class="banben">邮箱版本：默认版本</div>
+								<div class="sign">注册网易免费邮</div>
+							</div>
+							<div class="login_ft">
+								<a href="javascript:void(0)" class="lft_img"></a>
+								<a href="javascript:void(0)" class="lft_btn">立即下载</a>
+							</div>
+						</div></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+			
+		</div>
+</body>
+</html>
