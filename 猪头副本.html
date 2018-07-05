@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>作业</title>
+<style>
+	@keyframes move{
+       	   0%{
+       	   	-webkit-transform: translateX(0px);
+       	   	-ms-transform: translateX(0px);
+       	   	-o-transform: translateX(0px);
+       	   	transform: translateX(0px);
+       	   }
+       	   20%{
+       	   	-webkit-transform: translate(100px,200px);
+       	   	-ms-transform: translate(100px,200px);
+       	   	-o-transform: translate(100px,200px);
+       	   	transform: translate(100px,200px);
+       	   }
+       	   40%{
+       	   	-webkit-transform: translate(300px,-200px);
+       	   	-ms-transform: translate(300px,-200px);
+       	   	-o-transform: translate(300px,-200px);
+       	   	transform: translate(300px,-200px);
+       	   }
+       	   60%{
+       	   	-webkit-transform: translate(500px,100px);
+       	   	-ms-transform: translate(500px,100px);
+       	   	-o-transform: translate(500px,100px);
+       	   	transform: translate(500px,100px);
+       	   }
+       	   80%{
+       	   	-webkit-transform: translate(700px,-200px);
+       	   	-ms-transform: translate(700px,-200px);
+       	   	-o-transform: translate(700px,-200px);
+       	   	transform: translate(700px,-200px);
+       	   }
+       	   100%{
+       	   	-webkit-transform: translate(900px,300px);
+       	   	-ms-transform: translate(900px,300px);
+       	   	-o-transform: translate(900px,300px);
+       	   	transform: translate(900px,300px);
+       	   }
+         }
+
+@keyframes move-one{
+       	   0%{
+       	   	-webkit-transform: rotateZ(0deg);
+       	   	-ms-transform: rotateZ(0deg);
+       	   	-o-transform: rotateZ(0deg);
+       	   	transform: rotateZ(0deg);
+       	   }
+       	   20%{
+       	   	-webkit-transform: rotateZ(360deg);
+       	   	-ms-transform: rotateZ(360deg);
+       	   	-o-transform: rotateZ(360deg);
+       	   	transform: rotateZ(360deg);
+       	   }
+       	   40%{
+       	   	-webkit-transform: rotateZ(720deg);
+       	   	-ms-transform: rotateZ(720deg);
+       	   	-o-transform: rotateZ(720deg);
+       	   	transform: rotateZ(720deg);
+       	   }
+       	   60%{
+       	   	-webkit-transform: rotateZ(1080deg);
+       	   	-ms-transform: rotateZ(1080deg);
+       	   	-o-transform: rotateZ(1080deg);
+       	   	transform: rotateZ(1080deg);
+       	   }
+       	   80%{
+       	   	-webkit-transform: rotateZ(1440deg);
+       	   	-ms-transform: rotateZ(1440deg);
+       	   	-o-transform: rotateZ(1440deg);
+       	   	transform: rotateZ(1440deg);
+       	   }
+       	   100%{
+       	   	-webkit-transform: rotateZ(1800deg);
+       	   	-ms-transform: rotateZ(1800deg);
+       	   	-o-transform: rotateZ(1800deg);
+       	   	transform: rotateZ(1800deg);
+       	   }
+         }
+.warp{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	margin-top: 400px;
+	-webkit-animation-name: "move";
+    -o-animation-name: "move";
+    animation-name: "move";
+    -webkit-animation-timing-function: ease;
+    -o-animation-timing-function: ease;
+    animation-timing-function: ease;
+    -webkit-animation-iteration-count: 5;
+    -o-animation-iteration-count: 5;
+    animation-iteration-count: 5;
+    -webkit-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-duration:5s;
+    -o-animation-duration:5s;
+    animation-duration:5s;
+}
+.one{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: white;
+	text-align: center;
+	line-height: 50px;
+	-webkit-animation-name: "move-one";
+    -o-animation-name: "move-one";
+    animation-name: "move-one";
+    -webkit-animation-iteration-count: 5;
+    -o-animation-iteration-count: 5;
+    animation-iteration-count: 5;
+    -webkit-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-duration:5s;
+    -o-animation-duration:5s;
+    animation-duration:5s;
+}
+
+
+
+
+
+</style>
+
+
+
+</head>
+<body>
+	<div class="warp">
+		<div class="one">
+			🐷
+		</div>
+	</div>
+</body>
+</html>
